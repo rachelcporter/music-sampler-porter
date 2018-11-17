@@ -1,0 +1,55 @@
+html {
+box-sizing: border-box;
+}
+*{
+  box-sizing:inherit;
+}
+
+body {
+    font-family: Assistant, Arial, sans-serif;
+    color: #000;
+    background: #F5E5E3;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin: 0;
+}
+
+h1 {
+  font-family: "Playfair Display SC", Georgia, serif;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    padding: 2rem 0;
+}
+header {
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    max-width: 500px;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+footer{
+  text-align: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 750px) {
+body {
+  margin: 0;
+  padding: 2rem 0;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+header {
+  font-size: 1.5rem;
+}}
